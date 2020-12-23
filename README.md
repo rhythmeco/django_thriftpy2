@@ -1,23 +1,24 @@
-# Django Thrift
+# Django Thriftpy2
 
 Run an Apache Thrift RPC Server through Django.
+Fork from Django Thrift
 
 ## Installation
 
 Install with pip.
 
 ```bash
-pip install django-thrift
+pip install django-thriftpy2
 ```
 
 ## Configuration
 
-To configure the application, you will need to add `django_thrift` to your `INSTALLED_APPS`.
+To configure the application, you will need to add `django_thriftpy2` to your `INSTALLED_APPS`.
 
 ```python
 INSTALLED_APPS = [
     ...  # Make sure to include the default installed apps here.
-    'django_thrift',
+    'django_thriftpy2',
 ]
 ```
 

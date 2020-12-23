@@ -1,7 +1,8 @@
 __pycache__
-venv
+.venv
 *.pyc
 .vscode
 build
 dist
 *.egg-info
+thrift_project/

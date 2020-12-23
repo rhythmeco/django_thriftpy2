@@ -4,14 +4,14 @@ import warnings
 
 import django
 from django.conf import settings
-from django_thrift.handler import create_handler
-from django_thrift.file import thrift_module as THRIFT_MODULE
+from ..handler import create_handler
+from ..file import thrift_module as THRIFT_MODULE
 
-import thriftpy
-from thriftpy.protocol import TBinaryProtocolFactory
-from thriftpy.server import TThreadedServer
-from thriftpy.thrift import TProcessor, TClient
-from thriftpy.transport import (
+import thriftpy2 as thriftpy
+from thriftpy2.protocol import TBinaryProtocolFactory
+from thriftpy2.server import TThreadedServer
+from thriftpy2.thrift import TProcessor, TClient
+from thriftpy2.transport import (
     TBufferedTransportFactory,
     TServerSocket,
     TSSLServerSocket,
