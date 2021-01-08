@@ -1,7 +1,7 @@
 import os
 
 from django.conf import settings
-import thriftpy
+import thriftpy2 as thriftpy
 
 if not os.getenv("DJANGO_SETTINGS_MODULE", None):
     raise ValueError("'DJANGO_SETTINGS_MODULE' environment variable must exist!")

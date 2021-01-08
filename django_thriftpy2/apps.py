@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class DjangoThriftConfig(AppConfig):
-    name = 'django_thrift'
+class DjangoThriftpy2Config(AppConfig):
+    name = 'django_thriftpy2'
